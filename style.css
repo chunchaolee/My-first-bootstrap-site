@@ -32,12 +32,18 @@ body {
 /*NAV BAR 字色*/
 .my-nav .navbar-brand {
   color: #ffffff;
+  text-shadow: 0 0 15px #fff, 0 0 10px #fff; /* 09/26 文字陰影*/
+
 }
 
 /*MENU 樣式*/
 .navbar-nav .my-button {
   background-color: #888888;
   border: none;
+  box-shadow: inset 3px 3px 10px 0; /* 09/26 新增Button效果*/
+  /*box-shadow: h-shadow v-shadow blur spread color inset;
+*/
+  text-shadow: 0 0 8px #fff;
 }
 
 /*MENU 字色*/
@@ -56,10 +62,17 @@ body {
   padding-top: 70px;
 }
 
+#about-me h1 {
+  text-shadow: 3px 3px 5px #888888; /* 09/26 */
+}
+
 /* My project */
 #my-project {
   text-align: center;
+  text-shadow: 3px 7px 5px #888888; /* 09/26 */
 }
+
+
 
 div img {
   /*border: 5px solid red;*/
@@ -69,6 +82,10 @@ div img {
 }
 
 /* Contact me*/
+#contact-me {
+  text-shadow: 3px 8px 5px #888888; /* 09/26 */
+}
+
 #contact-me-button {
   text-align: center;
 }
